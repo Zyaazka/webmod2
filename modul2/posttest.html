@@ -1,0 +1,65 @@
+<form action="proses_tambah_nilai.php" method="post">
+    <table>
+        <tr>
+            <td><label for="nama_matakuliah">Nama Mata Kuliah:</label></td>
+            <td><input type="text" id="nama_matakuliah" name="nama_matakuliah" required></td>
+        </tr>
+        <tr>
+            <td><label for="nama_dosen">Nama Dosen:</label></td>
+            <td><input type="text" id="nama_dosen" name="nama_dosen" required></td>
+        </tr>
+        <tr>
+            <td><label for="sks">SKS:</label></td>
+            <td><input type="number" id="sks" name="sks" min="1" max="3"></td>
+        </tr>
+        <tr>
+            <td><label for="nama_mahasiswa">Nama Mahasiswa:</label></td>
+            <td><input type="text" id="nama_mahasiswa" name="nama_mahasiswa" required></td>
+        </tr>
+        <tr>
+            <td><label for="jumlah_kehadiran">Jumlah Kehadiran:</label></td>
+            <td><input type="number" id="jumlah_kehadiran" name="jumlah_kehadiran" min="0" max="14" required></td>
+        </tr>
+        <tr>
+            <td><label for="nilai_tugas">Nilai Tugas:</label></td>
+            <td><input type="number" id="nilai_tugas" name="nilai_tugas" min="0" max="100" required></td>
+        </tr>
+        <tr>
+            <td><label for="nilai_quiz">Nilai Quiz:</label></td>
+            <td><input type="number" id="nilai_quiz" name="nilai_quiz" min="0" max="100" required></td>
+        </tr>
+        <tr>
+            <td><label for="nilai_uts">Nilai UTS:</label></td>
+            <td><input type="number" id="nilai_uts" name="nilai_uts" min="0" max="100" required></td>
+        </tr>
+        <tr>
+            <td><label for="nilai_uas">Nilai UAS:</label></td>
+            <td><input type="number" id="nilai_uas" name="nilai_uas" min="0" max="100" required></td>
+        </tr>
+        <tr>
+            <td><label for="nilai_akhir">Nilai Akhir:</label></td>
+            <td><input type="number" id="nilai_akhir" name="nilai_akhir" min="0" max="100" required></td>
+        </tr>
+        <tr>
+            <td><label>Nilai Huruf:</label></td>
+            <td>
+                <input type="radio" id="nilai_A" name="nilai_huruf" value="A" required>
+                <label for="nilai_A">A</label>
+                <input type="radio" id="nilai_B" name="nilai_huruf" value="B" required>
+                <label for="nilai_B">B</label>
+                <input type="radio" id="nilai_C" name="nilai_huruf" value="C" required>
+                <label for="nilai_C">C</label>
+                <input type="radio" id="nilai_D" name="nilai_huruf" value="D" required>
+                <label for="nilai_D">D</label>
+                <input type="radio" id="nilai_E" name="nilai_huruf" value="E" required>
+                <label for="nilai_E">E</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit">Tambah Data</button>
+            </td>
+        </tr>
+    </table>
+</form>
+ 
